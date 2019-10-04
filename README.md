@@ -1,4 +1,5 @@
 # pspdfkit-1-24-0-android-issue
+### Program type already present: com.facebook.device.yearclass.BuildConfig [SOLVED]
     Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug FAILED
 
     D8: Program type already present: com.facebook.device.yearclass.BuildConfig
@@ -8,11 +9,15 @@
     * What went wrong:
     Execution failed for task ':app:transformDexArchiveWithExternalLibsDexMergerForDebug'.
 
-    com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+    com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives:
 
     Program type already present: com.facebook.device.yearclass.BuildConfig
 
     Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+
+
+### PSPDFKitView doesn't work on Android
+No logs. Renders blank view.
 
 
 # Environment
