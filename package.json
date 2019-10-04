@@ -16,7 +16,8 @@
     "react-native-pdf-lib": "^0.2.1",
     "react-native-pspdfkit": "github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de",
     "react-native-unimodules": "0.5.2",
-    "react-native-web": "^0.11.4"
+    "react-native-web": "^0.11.4",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^6.0.0"
