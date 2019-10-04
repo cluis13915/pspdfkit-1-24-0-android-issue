@@ -39,9 +39,9 @@ android {
       // to be able to bundle old, incompatible SDKs.
 
 
-      
+
       abiFilters 'armeabi-v7a', 'x86', 'arm64-v8a', 'x86_64'
-      
+
     }
     multiDexEnabled true
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -52,6 +52,7 @@ android {
   }
   dexOptions {
     javaMaxHeapSize System.getenv("DISABLE_DEX_MAX_HEAP") ? null : "8g"
+    jumboMode = true
   }
 
   signingConfigs {
@@ -111,6 +112,7 @@ apply from: 'expo.gradle'
 apply from: "../../node_modules/react-native-unimodules/gradle.groovy"
 
 dependencies {
+    implementation project(':react-native-pdf-lib')
     implementation project(':react-native-pspdfkit')
   implementation fileTree(dir: 'libs', include: ['*.jar'])
 
@@ -180,22 +182,22 @@ dependencies {
   testImplementation 'com.android.support.test:runner:1.0.2-alpha1'
   testImplementation 'com.android.support.test:rules:1.0.2-alpha1'
 
-  
+
   implementation('host.exp.exponent:expoview:34.0.0@aar') {
     transitive = true
     exclude group: 'com.squareup.okhttp3', module: 'okhttp'
     exclude group: 'com.squareup.okhttp3', module: 'okhttp-urlconnection'
   }
-  
 
 
-  
+
+
   api 'org.webkit:android-jsc:r245459' // needs to be before react-native
   api 'com.facebook.react:react-native:33.0.0'
-  
 
 
-  
+
+
   addUnimodulesDependencies([
       modulesPaths : [
         '../../node_modules'
@@ -211,7 +213,7 @@ dependencies {
         // from auto-generated BasePackageList.java
       ]
   ])
-  
+
 }
 
 // This has to be down here for some reason

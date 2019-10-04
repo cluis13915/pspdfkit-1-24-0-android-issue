@@ -13,6 +13,7 @@
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz",
+    "react-native-pdf-lib": "^0.2.1",
     "react-native-pspdfkit": "github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de",
     "react-native-unimodules": "0.5.2",
     "react-native-web": "^0.11.4"
