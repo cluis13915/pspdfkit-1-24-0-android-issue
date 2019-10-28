@@ -64,7 +64,7 @@ allprojects {
       url 'https://customers.pspdfkit.com/maven/'
       credentials {
         username 'pspdfkit'
-        password 'TRIAL-da2dpTNIZ9UJrHU9Mz609J2m2OQiGes9W8pzOnGeVqOzaUUpYBoUQHc5Co7A6rWzjOVHhfQRlO0pRGBfO5pUQQ'
+        password 'TRIAL-OVpK9h8-PUF1tJRZOJNXggVYlbR80PyzJHBPt49s2bwZeWLdHLSBzLlw1no7mu7KRvWmT6hRGmxe11xAggSMe9fA_cQFX0BC0Xf5Rl2O_v4'
       }
     }
     maven {
