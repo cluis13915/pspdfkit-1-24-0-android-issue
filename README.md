@@ -34,3 +34,30 @@ $ yarn start
 $ cd android
 $ ./gradlew installDebug
 ```
+
+# To fix bug related to com.facebook.device.yearclass edit **build.gradle**
+
+```diff
+dependencies {
+if (demoVersion) {
+    compile("com.pspdfkit:pspdfkit-demo:${PSPDFKIT_VERSION}") {
+        exclude group: 'com.google.auto.value', module: 'auto-value'
++       exclude group: 'com.facebook.device.yearclass', module: 'yearclass'
+    }
+    compile("com.pspdfkit:pspdfkit-instant-demo:${PSPDFKIT_VERSION}") {
+        exclude group: 'com.google.auto.value', module: 'auto-value'
++       exclude group: 'com.facebook.device.yearclass', module: 'yearclass'
+    }
+} else {
+    compile("com.pspdfkit:pspdfkit:${PSPDFKIT_VERSION}") {
+        exclude group: 'com.google.auto.value', module: 'auto-value'
++       exclude group: 'com.facebook.device.yearclass', module: 'yearclass'
+    }
+    compile("com.pspdfkit:pspdfkit-instant:${PSPDFKIT_VERSION}") {
+        exclude group: 'com.google.auto.value', module: 'auto-value'
++       exclude group: 'com.facebook.device.yearclass', module: 'yearclass'
+    }
+}
+compile "com.facebook.react:react-native:+"
+}
+```
