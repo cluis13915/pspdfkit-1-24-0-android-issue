@@ -2314,8 +2314,9 @@ inherits@2, inherits@2.0.4, inherits@^2.0.3, inherits@~2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
 
 ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 inline-style-prefixer@^5.0.3:
   version "5.1.0"
@@ -3707,9 +3708,10 @@ react-native-pdf-lib@^0.2.1:
   dependencies:
     babel-preset-flow "^6.23.0"
 
-"react-native-pspdfkit@github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de":
-  version "1.24.0"
-  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de"
+"react-native-pspdfkit@github:PSPDFKit/react-native#3963653f0fc6a0ec586a129d72f20abf0d4c7079":
+  version "1.24.4"
+  uid "3963653f0fc6a0ec586a129d72f20abf0d4c7079"
+  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/3963653f0fc6a0ec586a129d72f20abf0d4c7079"
 
 react-native-unimodules@0.5.2:
   version "0.5.2"
