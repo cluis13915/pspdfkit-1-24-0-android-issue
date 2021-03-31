@@ -3707,9 +3707,10 @@ react-native-pdf-lib@^0.2.1:
   dependencies:
     babel-preset-flow "^6.23.0"
 
-"react-native-pspdfkit@github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de":
-  version "1.24.0"
-  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de"
+"react-native-pspdfkit@github:PSPDFKit/react-native#3963653f0fc6a0ec586a129d72f20abf0d4c7079":
+  version "1.24.4"
+  uid "3963653f0fc6a0ec586a129d72f20abf0d4c7079"
+  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/3963653f0fc6a0ec586a129d72f20abf0d4c7079"
 
 react-native-unimodules@0.5.2:
   version "0.5.2"
@@ -4706,8 +4707,9 @@ xtend@~4.0.1:
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 yallist@^2.1.2:
   version "2.1.2"
