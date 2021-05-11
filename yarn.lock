@@ -2254,8 +2254,9 @@ has-values@^1.0.0:
     kind-of "^4.0.0"
 
 hosted-git-info@^2.1.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.4.tgz#44119abaf4bc64692a16ace34700fed9c03e2546"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 http-errors@~1.7.2:
   version "1.7.3"
@@ -3707,9 +3708,10 @@ react-native-pdf-lib@^0.2.1:
   dependencies:
     babel-preset-flow "^6.23.0"
 
-"react-native-pspdfkit@github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de":
-  version "1.24.0"
-  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de"
+"react-native-pspdfkit@github:PSPDFKit/react-native#3963653f0fc6a0ec586a129d72f20abf0d4c7079":
+  version "1.24.4"
+  uid "3963653f0fc6a0ec586a129d72f20abf0d4c7079"
+  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/3963653f0fc6a0ec586a129d72f20abf0d4c7079"
 
 react-native-unimodules@0.5.2:
   version "0.5.2"
