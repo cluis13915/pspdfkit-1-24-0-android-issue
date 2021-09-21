@@ -3707,9 +3707,10 @@ react-native-pdf-lib@^0.2.1:
   dependencies:
     babel-preset-flow "^6.23.0"
 
-"react-native-pspdfkit@github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de":
-  version "1.24.0"
-  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de"
+"react-native-pspdfkit@github:PSPDFKit/react-native#3963653f0fc6a0ec586a129d72f20abf0d4c7079":
+  version "1.24.4"
+  uid "3963653f0fc6a0ec586a129d72f20abf0d4c7079"
+  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/3963653f0fc6a0ec586a129d72f20abf0d4c7079"
 
 react-native-unimodules@0.5.2:
   version "0.5.2"
@@ -4416,8 +4417,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
