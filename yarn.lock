@@ -1578,8 +1578,9 @@ decamelize@^1.1.1:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-assign@^3.0.0:
   version "3.0.0"
@@ -3707,9 +3708,10 @@ react-native-pdf-lib@^0.2.1:
   dependencies:
     babel-preset-flow "^6.23.0"
 
-"react-native-pspdfkit@github:PSPDFKit/react-native#accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de":
-  version "1.24.0"
-  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/accdd0b5d4f8d0aa11d4caa69c29e31dd5e7a3de"
+"react-native-pspdfkit@github:PSPDFKit/react-native#3963653f0fc6a0ec586a129d72f20abf0d4c7079":
+  version "1.24.4"
+  uid "3963653f0fc6a0ec586a129d72f20abf0d4c7079"
+  resolved "https://codeload.github.com/PSPDFKit/react-native/tar.gz/3963653f0fc6a0ec586a129d72f20abf0d4c7079"
 
 react-native-unimodules@0.5.2:
   version "0.5.2"
